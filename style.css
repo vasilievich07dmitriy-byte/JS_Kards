@@ -1,0 +1,56 @@
+body { 
+    font-family: Arial, sans-serif; 
+    padding: 20px; 
+    max-width: 800px; 
+    margin: 0 auto; 
+    background: #f4f4f4; 
+}
+.box { 
+    background: white; 
+    border: 1px solid #ddd; 
+    padding: 20px; 
+    margin-bottom: 20px; 
+    border-radius: 5px; 
+}
+input[type="text"], select { 
+    padding: 8px; 
+    margin-right: 10px; 
+    margin-bottom: 10px; 
+    width: calc(40% - 20px); 
+}
+button { 
+    padding: 8px 15px; 
+    cursor: pointer; 
+}
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 10px; 
+}
+td, th { 
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    text-align: left; 
+}
+.study-area { 
+    text-align: center; 
+    margin: 20px 0; 
+    padding: 40px; 
+    border: 2px dashed #aaa; 
+    border-radius: 8px; 
+    background: #fafafa;
+}
+.nav-area { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+.ml-10 {
+    margin-left: 10px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.bold-text { 
+    font-weight: bold; 
+}
