@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body { 
+    font-family: 'Inter', sans-serif; 
+    max-width: 800px; 
+    margin: 20px auto; 
+    background: #f0f4f8; 
+    color: #334; 
+}
+
+.box { 
+    background: #fff; 
+    padding: 20px; 
+    margin-bottom: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05); 
+}
+
+h3 { 
+    margin-top: 0; 
+    border-bottom: 1px solid #eee; 
+    padding-bottom: 10px; 
+}
+
+input[type="text"], select { 
+    padding: 8px; 
+    margin: 0 10px 10px 0; 
+    width: 40%; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+
+button { 
+    padding: 8px 15px; 
+    background: #3b82f6; 
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+
+button:hover { background: #2563eb; }
+button:disabled { background: #aaa; cursor: not-allowed; }
+
+table { width: 100%; border-collapse: collapse; }
+td, th { border-bottom: 1px solid #eee; padding: 10px; text-align: left; }
+th { background: #f9f9f9; }
+
+.study-area { 
+    text-align: center; 
+    margin: 20px 0; 
+    padding: 40px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+}
+
+#cardText { font-size: 24px; margin: 0; }
+.nav-area { display: flex; justify-content: space-between; align-items: center; }
+.ml-10 { margin-left: 10px; }
+.mt-20 { margin-top: 20px; }
+.bold-text { font-weight: bold; }
